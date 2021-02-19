@@ -1,0 +1,12 @@
+* Proyecto de Módulo de Android
+
+Este repositorio contiene una aplicación de 5 actividades donde se utilizan los siguientes
+elementos gráficos:
+
+- =Activity=
+- =Intent=
+- =Bundle=
+- =RecyclerView=
+- =Toolbar=
+- =SQLite= y =SharedPreferences=
+- =Controles básicos=
