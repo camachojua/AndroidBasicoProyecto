@@ -6,24 +6,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/teal_200"
-        app:title="Proyecto de Módulo"
-        app:subtitle="Android Básico"
-        app:navigationIcon="@drawable/ic_baseline_menu_24"
-        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
+        android:id="@+id/label_nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Escribe tu nombre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/label_nombre"
+        app:layout_constraintTop_toTopOf="@id/input_nombre"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

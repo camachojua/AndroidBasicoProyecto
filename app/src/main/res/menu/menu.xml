@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/primer_accion"
+        android:icon="@drawable/ic_baseline_5g_24"
+        app:showAsAction="always"
+        android:title="Menú 1"/>
+    <item
+        android:id="@+id/segunda_accion"
+        android:title="Menú 2"/>
+
+    <item
+        android:id="@+id/tercer_accion"
+        android:title="Menú 3"/>
+
+    <item
+        android:id="@+id/cuarta_accion"
+        android:title="Menú 4"/>
+
+    <item
+        android:id="@+id/quinta_accion"
+        android:title="Menú 5"/>
+</menu>
