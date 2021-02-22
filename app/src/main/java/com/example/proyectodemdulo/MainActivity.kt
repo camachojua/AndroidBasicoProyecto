@@ -1,5 +1,6 @@
 package com.example.proyectodemdulo
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -26,7 +27,7 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             R.id.segunda_accion -> {
-                Toast.makeText(this, "Menú 2", Toast.LENGTH_LONG).show()
+                startActivity(Intent(this@MainActivity, controlesBasicos::class.java))
                 return true
             }
             R.id.tercer_accion -> {
