@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Proyecto de Módulo</string>
-    <string name="label_nombre">Escribe tu nombre</string>
+    <string name="label_instrucciones">Registra tus datos</string>
     <string name="hint_nombre">Nombre para ubicarte</string>
     <string name="placeholder_nombre">Nombre Apellido</string>
-    <string name="text_seekBar">Mueve el slider</string>
+    <string name="menu2_nombre">Aquí va tu nombre después de guardarlo</string>
 </resources>

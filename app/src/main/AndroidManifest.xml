@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoDeMódulo">
-        <activity android:name=".controlesBasicos"></activity>
+        <activity android:name=".RecibeBundle"></activity>
+        <activity android:name=".EnviaBundle" />
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".controlesBasicos" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
